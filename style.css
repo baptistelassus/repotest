@@ -1,25 +1,94 @@
 header {
-    background-color: #00ffcc;
+    background-color: #36A9E0;
     padding-top:10px;
     padding-bottom:10px;
-    
+    text-align: center;   
+    max-width: 1000px; 
+    margin: auto;
 }
+
+
 header a { 
-    color:red;
+    color:white;
     font-family:arial;
     font-style:bold;
-    }
+    text-decoration: none;
+}
 
-header li
-{display:inline-block;
+
+header li { 
+    display:inline-block;
     margin-right:30px;
     margin-left:30px;
     text-align:center;
 }
+  
+footer {
+        background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    position: fixed;
+    bottom: 0px;
+    left:25px;
+    right:25px;
+    
 
-footer
-{background-color:white;
-position:fixed;
-width: 100%;
-bottom:0;
+}
+
+
+main{
+    background-color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin:auto;
+
+}
+
+.Photo {
+float: left;
+}
+
+.colonne {
+    float: left;
+}
+
+
+.contact {
+    float: left;
+}
+
+p {
+    font-size: 25px;
+}
+
+.xp p {
+    font-size: 18px;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation a {
+    padding: 4px 10px; 
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#navigation a:hover, #navigation a:focus {
+    text-decoration: underline;
+    color: #95C11E;
+}
+
+#navigation #en-cours a {
+  background-color: white;
+    color: #fff;
+}
+
+
+h1 {
+    color: #95C11E;
 }

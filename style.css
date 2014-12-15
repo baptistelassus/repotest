@@ -67,8 +67,8 @@ p {
 }
 
 .mail {
-    text-decoration: none;
     color: black;
+    text-decoration:underline;
 }
 
 #navigation a {
@@ -92,3 +92,4 @@ p {
 h1 {
     color: #95C11E;
 }
+
